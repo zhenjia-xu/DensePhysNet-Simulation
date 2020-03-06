@@ -1,0 +1,30 @@
+<robot name="block">
+  <link name="block_base_link">
+    <contact>
+      <lateral_friction value="0.2"/>
+      <rolling_friction value="0.001"/>
+      <contact_cfm value="0.0"/>
+      <contact_erp value="1.0"/>
+    </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0.05"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="clevr_cube23.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="tray_material">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="clevr_cube23.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
