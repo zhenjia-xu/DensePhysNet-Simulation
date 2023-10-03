@@ -7,7 +7,7 @@ matplotlib==3.2.0
 networkx==2.4
 numpy==1.18.1
 opencv-python==4.2.0.32
-Pillow==8.1.1
+Pillow==10.0.1
 pybullet==2.6.4
 pyparsing==2.4.6
 python-dateutil==2.8.1
